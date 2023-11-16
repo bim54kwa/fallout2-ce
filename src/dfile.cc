@@ -120,13 +120,9 @@ DBase* dbaseOpen(const char* filePath)
         if (fread(entry->path, pathLength, 1, stream) != 1) {
             break;
         }
-
         entry->path[pathLength] = '\0';
-        
         // CE: Normalize entry path.
         dfile_normalize_path(entry->path);
-
-
         if (fread(&(entry->compressed), sizeof(entry->compressed), 1, stream) != 1) {
             break;
         }
