@@ -72,7 +72,7 @@ static double const dbl_50E7C7 = -4.0;
 static bool gTileBorderInitialized = false;
 
 // 0x51D954
-static bool gTileScrollBlockingEnabled = true;
+static bool gTileScrollBlockingEnabled = false;
 
 // 0x51D958
 static bool gTileScrollLimitingEnabled = true;
