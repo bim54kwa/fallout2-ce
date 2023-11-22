@@ -75,7 +75,7 @@ static bool gTileBorderInitialized = false;
 static bool gTileScrollBlockingEnabled = false;
 
 // 0x51D958
-static bool gTileScrollLimitingEnabled = true;
+static bool gTileScrollLimitingEnabled = false;
 
 // 0x51D95C
 static bool gTileRoofIsVisible = true;
