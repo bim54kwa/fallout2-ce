@@ -555,7 +555,7 @@ int tileSetCenter(int tile, int flags)
 
             if (dx > abs(dudeScreenX - _tile_offx)
                 || dy > abs(dudeScreenY - _tile_offy)) {
-                if (dx >= 480 || dy >= 400) {
+                if (dx >= 960 || dy >= 800) {
                     return -1;
                 }
             }
